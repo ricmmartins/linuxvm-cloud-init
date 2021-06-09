@@ -57,3 +57,17 @@ az vm create \
 az vm open-port --port 80 --resource-group myResourceGroup --name myVM
 ```
 
+# Get the VM Public IP
+
+```
+az network public-ip show \
+    --resource-group myResourceGroup \
+    --name myVMPublicIP \
+    --query ipAddress \
+    --output tsv
+ ```
+ 
+# Test access 
+
+![access.png](/access.png)
+
