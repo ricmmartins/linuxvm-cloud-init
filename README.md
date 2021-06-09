@@ -31,6 +31,19 @@ runcmd:
   - ln -s /usr/share/simple-php-app/ /var/www/html
 ```
 
+This will install the packages:
+
+* Apache2
+* PHP
+* Libapache2-Mod-PHP
+* Git
+
+And after will:
+
+* Clone the Github repo [https://github.com/ricmmartins/simple-php-app.git](https://github.com/ricmmartins/simple-php-app.git) under /usr/share
+* Move the content of /var/www/html to /var/www/html-bkp
+* Create a symbolic link from the content of /usr/share/simple-php-app on /var/www/html
+
 ✔️ You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
 
 ## Create a resource group
