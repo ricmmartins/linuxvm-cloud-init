@@ -71,3 +71,8 @@ az network public-ip show \
 
 ![access.png](/access.png)
 
+## References
+
+-  [https://docs.microsoft.com/en-us/azure/virtual-machines/linux/using-cloud-init](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/using-cloud-init)
+-  [https://docs.microsoft.com/en-us/azure/virtual-machines/custom-data](https://docs.microsoft.com/en-us/azure/virtual-machines/custom-data)
+-  [https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-automate-vm-deployment](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-automate-vm-deployment)
