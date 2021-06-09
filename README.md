@@ -12,7 +12,7 @@ I recommend to do the next steps using the Azure Cloud Shell directly from Azure
 
 # Creating the cloud-init.txt
 
-First of all, type code to open the editor then insert the following content
+First of all, create a file called cloud-init.txt and insert the following content:
 
 ```
 #cloud-config
@@ -29,3 +29,4 @@ runcmd:
   - ln -s /usr/share/simple-php-app/ /var/www/html
 ```
 
+You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
