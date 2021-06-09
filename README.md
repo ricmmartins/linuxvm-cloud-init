@@ -6,9 +6,11 @@ Cloud-init is a widely used approach to customize a Linux VM as it boots for the
 
 In other clouds, this concept is often referred to as user data. In Microsoft Azure, we have a similar feature called custom data. Custom data is only made available to the VM during first boot/initial setup, we call this 'provisioning'. Provisioning is the process where VM Create parameters (for example, hostname, username, password, certificates, custom data, keys etc.) are made available to the VM and a provisioning agent processes them, such as the [Linux Agent](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/agent-linux) and [cloud-init](https://cloudinit.readthedocs.io/).
 
-I recommend to do the next steps using the Azure Cloud Shell directly from Azure Portal. Remember to set Bash as environment.
+I recommend to do the next steps using the Azure Cloud Shell directly from Azure Portal. 
 
 ![cloud-shell.png](/cloud-shell.png)
+
+✔️ Remember to set Bash as environment.
 
 # Creating the cloud-init.txt
 
@@ -29,4 +31,4 @@ runcmd:
   - ln -s /usr/share/simple-php-app/ /var/www/html
 ```
 
-You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
+✔️ You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
