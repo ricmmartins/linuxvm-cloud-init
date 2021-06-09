@@ -30,6 +30,7 @@ runcmd:
   - mv /var/www/html /var/www/html-bkp
   - ln -s /usr/share/simple-php-app/ /var/www/html
 ```
+✔️ You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
 
 This will install the packages:
 
@@ -43,8 +44,6 @@ And after will:
 * Clone the Github repo [https://github.com/ricmmartins/simple-php-app.git](https://github.com/ricmmartins/simple-php-app.git) under /usr/share
 * Move the content of /var/www/html to /var/www/html-bkp
 * Create a symbolic link from the content of /usr/share/simple-php-app on /var/www/html
-
-✔️ You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
 
 ## Create a resource group
 
