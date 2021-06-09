@@ -22,7 +22,7 @@ package_upgrade: true
 packages:
   - apache2
   - php
-  - libapache2-mod-php
+  - libpache2-mod-php
   - git
 
 runcmd:
@@ -35,7 +35,7 @@ This will install the packages:
 
 * Apache2
 * PHP
-* Libapache2-Mod-PHP
+* LibApache2-Mod-PHP
 * Git
 
 And after will:
