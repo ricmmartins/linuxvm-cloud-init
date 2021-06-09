@@ -12,7 +12,7 @@ I recommend to do the next steps using the Azure Cloud Shell directly from Azure
 
 ✔️ Remember to set Bash as environment.
 
-# Creating the cloud-init.txt
+## Creating the cloud-init.txt
 
 First of all, create a file called cloud-init.txt and insert the following content:
 
@@ -33,13 +33,13 @@ runcmd:
 
 ✔️ You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
 
-# Create a resource group
+## Create a resource group
 
 ```
 az group create --name myResourceGroup --location eastus
 ```
 
-# Create a virtual machine
+## Create a virtual machine
 
 ```
 az vm create \
@@ -51,13 +51,13 @@ az vm create \
     --generate-ssh-keys
 ```
 
-# Open port 80 for web traffic
+## Open port 80 for web traffic
 
 ```
 az vm open-port --port 80 --resource-group myResourceGroup --name myVM
 ```
 
-# Get the VM Public IP
+## Get the VM Public IP
 
 ```
 az network public-ip show \
@@ -67,7 +67,7 @@ az network public-ip show \
     --output tsv
  ```
  
-# Test access 
+## Test access 
 
 ![access.png](/access.png)
 
