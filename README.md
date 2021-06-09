@@ -32,3 +32,28 @@ runcmd:
 ```
 
 ✔️ You can use vim, or simple type "code" to open a VS Code inside the cloud shell.
+
+# Create a resource group
+
+```
+az group create --name myResourceGroup --location eastus
+```
+
+# Create a virtual machine
+
+```
+az vm create \
+    --resource-group myResourceGroup \
+    --name myVM \
+    --image UbuntuLTS \
+    --admin-username azureuser \
+    --custom-data cloud-init.txt \
+    --generate-ssh-keys
+```
+
+# Open port 80 for web traffic
+
+```
+az vm open-port --port 80 --resource-group myResourceGroup --name myVM
+```
+
