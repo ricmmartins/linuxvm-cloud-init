@@ -2,8 +2,8 @@
 
 > I've wrote two more parts covering the usage of cloud-init. You can see the other two here:
 >
-> 1. Part II: [https://github.com/ricmmartins/linuxvm-cloud-init-loadbalancer/](https://github.com/ricmmartins/linuxvm-cloud-init-loadbalancer/)
-> 2. Part III: [https://github.com/ricmmartins/linuxvm-cloud-init-vmss](https://github.com/ricmmartins/linuxvm-cloud-init-vmss)
+> Part II: [https://github.com/ricmmartins/linuxvm-cloud-init-loadbalancer/](https://github.com/ricmmartins/linuxvm-cloud-init-loadbalancer/)
+> Part III: [https://github.com/ricmmartins/linuxvm-cloud-init-vmss](https://github.com/ricmmartins/linuxvm-cloud-init-vmss)
 
 In this article let's see how to setup a Linux VM on Azure with Apache, PHP and a single application using Azure-CLI and cloud-init.
 
